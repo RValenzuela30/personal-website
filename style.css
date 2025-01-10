@@ -1,0 +1,33 @@
+.footerIcons {
+    width: 45px;
+    height: 45px;
+}
+
+footer {
+    background-color: black;
+    /* border-top: 5px;
+    border-color: brown; */ 
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.aboutSection{
+    /* How do you get a border to show??? */
+    border-top: 5px;
+    border-color: black;
+}
+
+/* .active {
+
+} */
+
+nav {
+    background-color: ;
+    font-size: 18px;
+}
