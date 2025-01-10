@@ -23,9 +23,10 @@ body {
     border-color: black;
 }
 
-/* .active {
-
-} */
+.active {
+    background-color: brown;
+    color: black
+}
 
 nav {
     background-color: ;
