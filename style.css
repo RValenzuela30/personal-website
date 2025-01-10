@@ -4,13 +4,13 @@
 }
 
 footer {
-    background-color: black;
-    /* border-top: 5px;
-    border-color: brown; */ 
-    height: 100px;
-    position: absolute;
+    background-color: rgba(0, 0, 0, 0.692);
+    height: 50px;
+    position: fixed;
     bottom: 0;
-    left: 50%;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
 }
 
 body {
