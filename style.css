@@ -28,14 +28,18 @@ body {
     color: black
 }
 
-nav {
+/* nav {
     /* background-color: ; */
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
-}
+} */
 
 a:hover {
     background-color: black;
     color: white;
     cursor: pointer;
+}
+
+.tabs {
+    
 }
