@@ -54,8 +54,6 @@ footer {
 
 .aboutSection img {
     height: 100px;
-    /* how would you dynamically resize this without setting a height? */
-    /* How do you center it in the section */
 }
 
 .aboutPic {
@@ -96,6 +94,16 @@ button.fullstack {
     padding: .5rem 1.5rem;
 }
 
+button.Submit {
+    color: #ffffff;
+    background: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: .5rem 1.5rem;
+    margin-top: 5px;
+}
+
 button:hover {
     background: #ffffff;
     color: #000;
@@ -103,4 +111,12 @@ button:hover {
 
 .portfolioSection {
     font-size: 18px;
+}
+
+input {
+    width: 30%;
+}
+
+textarea {
+    width: 30%;
 }

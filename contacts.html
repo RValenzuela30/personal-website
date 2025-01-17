@@ -4,10 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
     <script src="contact.js"></script>
 </head>
 <body>
-    
+    <nav>
+        <div class="name">
+            Ralph Valenzuela
+        </div>
+        <div class="tabs">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a class="active" href="contacts.html">Contact</a>
+        </div>
+    </nav>
+    <main>
+        <h1>Want to get in touch?</h1>
+        <form id="contactForm"></form>
+            <div>
+                <label for="contactForm">Name</label><br>
+                <input type="text">
+            </div>
+            <div>
+                <label for="contactForm">Email</label><br>
+                <input type="text">
+            </div>
+            <div>
+                <label for="contactForm">How can I help you?</label><br>
+                <textarea name="helpMessage" id="helpMessage" rows="10"></textarea>
+            </div>
+            <div>
+                <button class="Submit">Submit</button>
+            </div>
+    </main>
+    <footer>
+        <div>
+        <a href="https://www.linkedin.com" target="_blank">
+            <img class="footerIcons" src="https://fsa-personal-website-part-1-0b8b53efdbf4.herokuapp.com/images/linkedin.svg" alt="LinkedIn">
+        </a>
+        <a href="" target="_blank">
+            <img class="footerIcons" src="https://cdn-icons-png.flaticon.com/512/8101/8101319.png" alt="Resume">
+        </a>
+    </div>
+    </footer>
 </body>
 </html>
