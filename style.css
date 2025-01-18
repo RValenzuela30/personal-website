@@ -120,3 +120,18 @@ input {
 textarea {
     width: 30%;
 }
+
+@media screen and (max-width: 480px) {
+    /* .container {
+        flex-wrap: wrap;
+    } */
+    .box {
+        flex: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 481px) {
+    .box {
+        flex: 50%;
+    }
+}
